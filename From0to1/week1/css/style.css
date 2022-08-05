@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+p {
+  text-align: left;
+}
+
+body {
+  background-color: white;
+  color: black;
+  border: 10px solid red;
+}
+
+div {
+  font-size: 50px;
+}
+
+/*
+селектор класса
+*/
+.content {
+
+}
+
+/* 
+селектор {
+  свойство: значение;
+} 
+*/
