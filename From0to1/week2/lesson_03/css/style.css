@@ -11,31 +11,10 @@
 /* задаем шрифт текста. */
 .text_1{
     font-size: 20px;
-    background-color: #cccccc;
-
-    /* отступы */
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-bottom: 70px;
-    margin-right: 35px;
-
-    /* отступы */
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-bottom: 70px;
-    padding-right: 35px;
-
-    /* рамка, но есть запись в одну строку */
-    /*border-width: 3px;*/
-    /*border-style: solid;*/
-    /*border-color: red;*/
-
-    border: 3px solid red;
 }
 
 .text_2{
     font-size: 18px;
-    background-color: #cccccc;
 }
 
 /* курсив */
