@@ -1,0 +1,64 @@
+*{
+    /* отступы вставляет во внутрь нашего Бокса - который равен 500px. Параметры взяты из класса text_01 */
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1200px;
+    /* Автоматические отступы с правой и слевой стороны, выставляем текст по середине экрана для всех мониторов */
+    /*margin-left: auto;*/
+    /*margin-right: auto; - все эти 2 строки можно записать в 1 строку для текста*/
+    margin: 0 auto;
+}
+
+/* вставляем окно с маленькой вставкой внутри */
+.box{
+    border: 2px solid black;
+    background-color: white;
+    height: 500px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.text{
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* все заголовки по центру, еще задавание 2 классов дает преимущество объединение большого количества текста,
+ а в Стилях указываем один класс, как видем здесь и получаем тоже, что и в объединения множества классов */
+.title{
+    text-align: center;
+}
+
+/* задаем шрифт текста. */
+.text_1{
+    font-size: 20px;
+    background-color: #cccccc;
+}
+
+.text_2{
+    font-size: 18px;
+    background-color: #cccccc;
+}
+
+/* курсив */
+.text_3{
+    font-style: italic;
+}
+
+/* делаем его с левой стороны */
+.text_4{
+    text-align: right;
+    font-size: 14px;
+}
+
+/* закрасим фон какого то блока */
+.text_5{
+    background-color: #ccc;
+}
